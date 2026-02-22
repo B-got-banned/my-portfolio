@@ -95,6 +95,7 @@ footer #link img{
   width: 40px;
   transform: rotateY(180deg);
   margin-top: 0;
+  
 }
 
 footer #link:hover{
@@ -269,14 +270,18 @@ section.border{
 #projects a{
   text-decoration: none;
   display: block;
+  transition: scale 0.5s ease;
+}
+
+#projects a:hover{
+  scale: 1.01;
 }
 
 #email, #whatsapp{
   width: 200px;
   text-align: center;
   padding: 25px 45px;
-  transition: scale 0.4s;
-  transition: box-shadow 0.4s;
+  transition: all 0.4s ease;
   border-radius: 20px;
   background-color: white;
   box-shadow: 0 4px 8px hsla(0, 0%, 0%, 0.1);
